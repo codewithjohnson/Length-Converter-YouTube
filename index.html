@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>length converter</title>
+    <script src="https://kit.fontawesome.com/3e6491bf19.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <!-- HELLO MY FRIEND, THERE WILL BE FIVE SECTIONS HERE -->
+        <!-- first section -->
+        <div class="title_container">
+            <h2>length converter</h2>
+        </div>
+
+        <!-- second section: amount to be converted -->
+        <div class="amount_container">
+            <label for="amount">Enter Amount</label>
+            <input type="number" name="amount" id="amount">
+        </div>
+
+        <!-- third section: unit container -->
+        <div class="unit_container">
+            <!-- left -->
+            <div class="left">
+                <p>From</p>
+                <div class="select_container">
+                    <select name="from" id="from">
+                        <option value="centimeter">centimeter</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- middle -->
+            <div class="middle">
+                <i class="fas fa-cog fa-spin" style="font-size:24px"></i>
+            </div>
+
+            <!-- right -->
+            <div class="right">
+                <p>To</p>
+                <div class="select_container to">
+                    <select name="to" id="to">
+                        <option value="centimeter">centimeter</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- fourth section: formular display -->
+        <div class="formular_container">
+            <span class="title">formular</span>
+            <span class="content"> Lorem ipsum dolor sit amet.</span>
+        </div>
+
+        <!-- fifth section: result display -->
+        <div class="result_container">
+            <label for="result">Result</label>
+            <input type="text" name="result" id="result">
+        </div>
+
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
